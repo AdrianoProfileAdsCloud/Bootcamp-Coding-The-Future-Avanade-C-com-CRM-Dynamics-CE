@@ -1,0 +1,120 @@
+<ImportExportXml version="9.2.23123.210" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>TreinamentoDioMsDynamicsCE</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TreinamentoDioMsDynamicsCE" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>treinamento</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Treinamento" languagecode="1046" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>desafio</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>14333</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="desafio_aluno" behavior="0" />
+      <RootComponent type="1" schemaName="desafio_curso" behavior="0" />
+      <RootComponent type="1" schemaName="desafio_cursosxinstrutores" behavior="0" />
+      <RootComponent type="1" schemaName="desafio_instrutor" behavior="0" />
+      <RootComponent type="29" id="{0814caf2-27b4-ee11-9078-002248360836}" behavior="0" />
+      <RootComponent type="29" id="{1d41c52d-f2b4-ee11-9078-002248360836}" behavior="0" />
+      <RootComponent type="61" schemaName="desafio_BibliotecaJsDynamicsCE" behavior="0" />
+      <RootComponent type="61" schemaName="desafio_FormularioTreinamentoDynamics" behavior="0" />
+      <RootComponent type="61" schemaName="desafio_PowerApps" behavior="0" />
+      <RootComponent type="62" schemaName="desafio_TreinamentoDynamicsCeDio" behavior="0" />
+      <RootComponent type="80" schemaName="desafio_TreinamentoDynamicsCeDio" behavior="0" />
+      <RootComponent type="300" schemaName="desafio_appdesafiodynamicscedio_7aa5c" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="curso_alunosxcursos" displayName="Alunos X Cursos" solution="Active" />
+        <Dependent type="300" schemaName="desafio_appdesafiodynamicscedio_7aa5c" displayName="AppDesafioDynamicsCeDio" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="curso_cursosdisponveis" displayName="Cursos" solution="Active" />
+        <Dependent type="80" schemaName="desafio_TreinamentoDynamicsCeDio" displayName="TreinamentoDynamicsCeDio" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dio_aluno" displayName="Aluno" solution="Active" />
+        <Dependent type="80" schemaName="desafio_TreinamentoDynamicsCeDio" displayName="TreinamentoDynamicsCeDio" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="curso_PowerApps" displayName="curso_PowerApps" solution="Active" />
+        <Dependent type="80" schemaName="desafio_TreinamentoDynamicsCeDio" displayName="TreinamentoDynamicsCeDio" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2312.3020)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Curso" id="{a85fc7f5-d0f0-41a9-b31b-bfc73e6f8ab2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.6)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=desafio_TreinamentoDynamicsCeDio,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="desafio_TreinamentoDynamicsCeDio" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
