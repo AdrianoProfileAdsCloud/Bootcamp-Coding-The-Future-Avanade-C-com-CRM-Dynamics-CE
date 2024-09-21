@@ -19,7 +19,7 @@ Explore como incorporar inteligência artificial e aprendizado de máquina em so
 <br>
 <br>
 
-![Dynamics CE](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Coding-The-Future-Avanade-C-com-CRM-Dynamics-CE/blob/main/imagens/Programa%C3%A7%C3%A3o%20c%23%20com%20CRM%20Dynamics.png))
+![Dynamics CE](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Coding-The-Future-Avanade-C-com-CRM-Dynamics-CE/blob/main/imagens/Captura%20de%20tela%20de%202024-09-21%2004-07-25.png))
 
 
 
